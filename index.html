@@ -6,7 +6,49 @@
     <title>Project CodeAlign | Ontario Tech Research</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+    /* Styling for the Match Tags Container */
+    .match-tags {
+        background: #f8f9fa;
+        border: 1px solid #e9ecef;
+        padding: 12px;
+        border-radius: 8px;
+        margin: 15px 0;
+    }
+
+    .match-tags strong {
+        display: block;
+        margin-bottom: 8px;
+        color: #003366;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    /* Styling the individual keyword items */
+    .tag-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns for quick reading */
+        gap: 8px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .tag-list li {
+        font-size: 0.85rem;
+        color: #444;
+        display: flex;
+        align-items: center;
+    }
+
+    .tag-list li span {
+        font-weight: 600;
+        margin-right: 4px;
+    }
+    </style>
 </head>
+
 <body>
 
     <header role="banner">
