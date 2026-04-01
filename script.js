@@ -411,7 +411,7 @@ document.getElementById('confirm-btn').addEventListener('click', function() {
                     </div>
 
                     <div class="project-item" style="border: 1px solid #ddd; padding: 25px; border-radius: 12px; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                        <img src= TurtleGrade1.JPG alt="Turtle Academy" style="width:100%; border-radius:8px; height: 200px; object-fit: cover;">
+                        <img src= "TurtleGrade1.JPG" alt="Turtle Academy" style="width:100%; border-radius:8px; height: 200px; object-fit: cover;">
                         <h4 style="font-size: 1.4rem; margin: 15px 0;">Turtle Academy: Lesson 1</h4>
                         
                         <div class="match-tags" style="background: #fdfdfd; border: 1px solid #eee; padding: 15px; border-radius: 8px; margin-bottom: 15px; font-size: 0.9rem;">
