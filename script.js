@@ -346,58 +346,94 @@ document.getElementById('confirm-btn').addEventListener('click', function() {
             <div class="result-card" style="max-width: 1200px; margin: 0 auto;">
                 <div class="curriculum-tag">Research-Validated Recommendations</div>
                 <h2 style="font-size: 2rem; margin-bottom: 10px;">Grade 1 Mathematics: Coding & Modelling</h2>
-                <p style="font-size: 1.1rem; color: #555;">Based on your survey, these platforms support sequential logic, data management, and financial literacy.</p>
+                <p style="font-size: 1.1rem; color: #555;">Cross-reference these <strong>Match Tags</strong> with your survey selections to ensure pedagogical alignment.</p>
 
                 <div class="projects-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 30px; margin-top: 30px;">
                     
                     <div class="project-item" style="border: 1px solid #ddd; padding: 25px; border-radius: 12px; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                        <img src="ScratchGrade1.jpg" alt="ScratchJr" style="width:100%; border-radius:8px; height: 250px; object-fit: cover;">
+                        <img src="ScratchGrade1.jpg" alt="ScratchJr" style="width:100%; border-radius:8px; height: 200px; object-fit: cover;">
                         <h4 style="font-size: 1.4rem; margin: 15px 0;">ScratchJr: Storytelling</h4>
-                        <p style="font-size: 1rem; line-height: 1.5;">A block-based introduction to sequential events. Students move characters and add sounds to build logic, reinforcing the idea that order matters in code.</p>
+                        
+                        <div class="match-tags" style="background: #fdfdfd; border: 1px solid #eee; padding: 15px; border-radius: 8px; margin-bottom: 15px; font-size: 0.9rem;">
+                            <strong>Quick Match Tags:</strong>
+                            <ul style="list-style: none; padding: 0; margin: 10px 0 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+                                <li>🎯 <b>Grades:</b> 1–3</li>
+                                <li>🤝 <b>Support:</b> Guided/High</li>
+                                <li>🏠 <b>Location:</b> Class/Home</li>
+                                <li>🧩 <b>Style:</b> Project-based</li>
+                                <li>⌨️ <b>Type:</b> Block-based</li>
+                                <li>👥 <b>Vibe:</b> Solo/Class</li>
+                            </ul>
+                        </div>
+
+                        <p style="font-size: 0.95rem; line-height: 1.5;">Aligns with <b>Sequential Events</b>. Best for teachers ready to provide hands-on guidance during the initial setup.</p>
                         <a href="https://codejr.org/scratchjr/index.html" target="_blank" class="primary-btn" style="display: inline-block; margin-top: 10px;">View Project</a>
                     </div>
 
                     <div class="project-item" style="border: 1px solid #ddd; padding: 25px; border-radius: 12px; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                        <img src="BlocklyGrade1.jpg" alt="Blockly Maze" style="width:100%; border-radius:8px; height: 250px; object-fit: cover;">
+                        <img src="BlocklyGrade1.jpg" alt="Blockly Maze" style="width:100%; border-radius:8px; height: 200px; object-fit: cover;">
                         <h4 style="font-size: 1.4rem; margin: 15px 0;">Blockly Games: Maze</h4>
-                        <p style="font-size: 1rem; line-height: 1.5;">Develops spatial sense and navigation. Students use code blocks to guide a character through 10 levels, focusing on direction and distance.</p>
+                        
+                        <div class="match-tags" style="background: #fdfdfd; border: 1px solid #eee; padding: 15px; border-radius: 8px; margin-bottom: 15px; font-size: 0.9rem;">
+                            <strong>Quick Match Tags:</strong>
+                            <ul style="list-style: none; padding: 0; margin: 10px 0 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+                                <li>🎯 <b>Grades:</b> 1–4</li>
+                                <li>⚡ <b>Support:</b> Independent</li>
+                                <li>🏠 <b>Location:</b> In-Class</li>
+                                <li>🎮 <b>Style:</b> Gamified</li>
+                                <li>⌨️ <b>Type:</b> Block-based</li>
+                                <li>👥 <b>Vibe:</b> Solo/class</li>
+                            </ul>
+                        </div>
+
+                        <p style="font-size: 0.95rem; line-height: 1.5;">Aligns with <b>Sequential Events</b>. Ideal for students who prefer a <b>gamified</b> approach with less teacher intervention.</p>
                         <a href="https://blockly.games/maze?lang=en" target="_blank" class="primary-btn" style="display: inline-block; margin-top: 10px;">View Project</a>
                     </div>
 
                     <div class="project-item" style="border: 1px solid #ddd; padding: 25px; border-radius: 12px; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                        <img src="TurtleGrade1.jpg" alt="Turtle Academy" style="width:100%; border-radius:8px; height: 250px; object-fit: cover;">
-                        <h4 style="font-size: 1.4rem; margin: 15px 0;">Turtle Academy (Text-Based)</h4>
-                        <p style="font-size: 1rem; line-height: 1.5;">An early transition from blocks to text commands. Students follow step-by-step instructions to move a 'turtle' by typing specific logic into a command box.</p>
+                        <img src="CountingGrade1.jpg" alt="Scratch Counting Money" style="width:100%; border-radius:8px; height: 200px; object-fit: cover;">
+                        <h4 style="font-size: 1.4rem; margin: 15px 0;">Scratch: Counting Money</h4>
+                        
+                        <div class="match-tags" style="background: #fdfdfd; border: 1px solid #eee; padding: 15px; border-radius: 8px; margin-bottom: 15px; font-size: 0.9rem;">
+                            <strong>Quick Match Tags:</strong>
+                            <ul style="list-style: none; padding: 0; margin: 10px 0 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+                                <li>🎯 <b>Grades:</b> 1–3</li>
+                                <li>⚡ <b>Support:</b> Guided/High </li>
+                                <li>🏠 <b>Location:</b> In-Class</li>
+                                <li>🎮 <b>Style:</b> Visual</li>
+                                <li>⌨️ <b>Type:</b> Block-based</li>
+                                <li>👥 <b>Vibe:</b> Whole-class</li>
+                            </ul>
+                        </div>
+
+                        <p style="font-size: 0.95rem; line-height: 1.5;">Aligns with <b>Financial Literacy</b>. Ideal for whole class on recognition of Canadian dollars with teachers' guidance.</p>
+                        <a href="https://scratch.mit.edu/projects/1290470997/" target="_blank" class="primary-btn" style="display: inline-block; margin-top: 10px;">View Project</a>
+                    </div>
+
+                    <div class="project-item" style="border: 1px solid #ddd; padding: 25px; border-radius: 12px; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                        <img src="TurtleGrade1.jpg" alt="Turtle Academy" style="width:100%; border-radius:8px; height: 200px; object-fit: cover;">
+                        <h4 style="font-size: 1.4rem; margin: 15px 0;">Turtle Academy: Lesson 1</h4>
+                        
+                        <div class="match-tags" style="background: #fdfdfd; border: 1px solid #eee; padding: 15px; border-radius: 8px; margin-bottom: 15px; font-size: 0.9rem;">
+                            <strong>Quick Match Tags:</strong>
+                            <ul style="list-style: none; padding: 0; margin: 10px 0 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+                                <li>🎯 <b>Grades:</b> 1–4</li>
+                                <li>⚡ <b>Support:</b> Independent </li>
+                                <li>🏠 <b>Location:</b> Mix of in-class and at home</li>
+                                <li>🎮 <b>Style:</b> Gamified</li>
+                                <li>⌨️ <b>Type:</b> Block-based</li>
+                                <li>👥 <b>Vibe:</b> Solo Mission</li>
+                            </ul>
+                        </div>
+
+                        <p style="font-size: 0.95rem; line-height: 1.5;">Aligns with <b>Sequential Events</b>. Ideal for independent coders more ahead in Grades 1-3 who likes typing with good understanding of guideliness.</p>
                         <a href="https://turtleacademy.com/lessons/1" target="_blank" class="primary-btn" style="display: inline-block; margin-top: 10px;">View Project</a>
                     </div>
 
-                    <div class="project-item" style="border: 1px solid #ddd; padding: 25px; border-radius: 12px; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                        <img src="RefrigeratorGrade1.jpg" alt="Organize Refrigerator" style="width:100%; border-radius:8px; height: 250px; object-fit: cover;">
-                        <h4 style="font-size: 1.4rem; margin: 15px 0;">Data Literacy: Sorting</h4>
-                        <p style="font-size: 1rem; line-height: 1.5;">Mathematical modelling through sorting. Students organize food items into a refrigerator while practicing categorization and counting skills.</p>
-                        <a href="https://scratch.mit.edu/projects/542493275/" target="_blank" class="primary-btn" style="display: inline-block; margin-top: 10px;">View Project</a>
                     </div>
-
-                    <div class="project-item" style="border: 1px solid #ddd; padding: 25px; border-radius: 12px; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                        <img src="CountingGrade1.jpg" alt="Counting Money" style="width:100%; border-radius:8px; height: 250px; object-fit: cover;">
-                        <h4 style="font-size: 1.4rem; margin: 15px 0;">Financial Literacy: Canadian Currency</h4>
-                        <p style="font-size: 1rem; line-height: 1.5;">This interactive Scratch project allows students to identify and count Canadian coins and bills, calculating total values in a bug-free environment.</p>
-                        <a href="https://scratch.mit.edu/projects/1290470997/" target="_blank" class="primary-btn" style="display: inline-block; margin-top: 10px;">View Project</a>
-                    </div>
-                </div>
 
                 <div class="button-group" style="margin-top: 40px; text-align: center;">
-                    <button id="final-back-btn" class="secondary-btn" style="padding: 12px 30px; font-size: 1.1rem;">Go Back to Start</button>
-                </div>
-
-                <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
-
-                <div class="survey-cta" style="background: #f0f4f8; padding: 30px; border-radius: 12px; text-align: center; border: 1px dashed #003366;">
-                    <h4 style="margin-top:0; color: #003366; font-size: 1.3rem;">Help Shape This Research</h4>
-                    <p style="margin-bottom: 20px;">Your feedback as an Ontario educator helps improve the platform alignment for all teachers.</p>
-                    <button class="primary-btn" onclick="alert('Survey link coming soon!')">
-                        I would like to take a survey to help the development of Project CodeAlign!
-                    </button>
+                    <button id="final-back-btn" class="secondary-btn">Go Back to Start</button>
                 </div>
             </div>
         `;
